@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Khojki&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bitter:ital,wght@1,600&family=Noto+Serif+Khojki&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bitter:ital,wght@1,600&family=Montserrat:wght@200&family=Noto+Serif+Khojki&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    font-size: 100%;
+    background-image: url(Talon.png);
+    background-position: center;
+    background-repeat: none;
+    background-size: cover;
+    min-height: 100vh;
+    backdrop-filter: blur(12px);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.logo{
+    height: 80px;
+}
+
+.container{
+    background-color: blue;
+    background-image: url(Talon.png);
+    background-repeat: none;
+    background-size: cover;
+    border-radius: 15px;
+    box-shadow: 0 0  20px rgb(77, 5, 5);
+    width: 1500px;
+    height: 800px;
+    padding: 40px;
+}
+
+.cabecalho{
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    color: white;
+}
+
+.cabecalho-item{
+    display: flex;
+    gap: 60px;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+
+}
+.cabecalho-menu{
+    display: flex;
+    gap: 60px;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+  
+}
+
+.main{
+    border-top: 1.0px solid rgb(128, 19, 19);
+    display: flex;
+    align-content: space-between;
+    flex-direction: column;
+}
+
+.conteudo-principal{
+    font-family: 'Rubik', sans-serif; color: white;
+    padding: 34px;
+    margin-left: 20px;
+
+}
+
+.classe{
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 10px;
+    font-family: 'Noto Serif Khojki', serif;
+    color: rgb(163, 51, 51);
+}
+
+.talon{
+    font-family: 'Bitter', serif;
+    font-size: 95px;
+    margin-top: 110px;
+}
+
+.descricao{
+    font-family: 'Montserrat', sans-serif;
+    line-height: 28px;
+    margin-top: 60px;
+    
+}
+
+.zed{
+    background-image: url(zed.png);
+    background-repeat: none;
+    background-size: cover;
+    border-radius: 15px;
+    width: 330px;
+    height: 170px;
+    box-shadow: 0 0  15px rgb(88, 7, 7);
+}
+
+.qyiana{
+    background-image: url(qyiana.png);
+    background-repeat: none;
+    background-size: cover;
+    border-radius: 15px;
+    width: 330px;
+    height: 170px;
+    box-shadow: 0 0  15px rgb(88, 7, 7);
+    
+}
+
+.rengar{
+    background-image: url(rengar.png);
+    background-repeat: none;
+    background-size: cover;
+    border-radius: 15px;
+    width: 330px;
+    height: 170px;
+    box-shadow: 0 0  15px rgb(88, 7, 7);
+}
+
+.home{
+    background-image: url(Talon.png);
+    background-repeat: none;
+    background-size: cover;
+    border-radius: 15px;
+    width: 330px;
+    height: 170px;
+    box-shadow: 0 0  15px rgb(88, 7, 7);
+}
+
+.conteudo-secundario{
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-end;
+    gap: 40px;
+}
+
+.buttons{
+    position: absolute;
+    top:550px;
+    right:610px;
+    padding: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    gap: 150px;
+}
+
+.b1:hover{
+    background-color: rgba(236, 214, 196, 0.53)
+}
+
+.b2:hover{
+    background-color: rgba(192, 52, 52, 0.53)
+}
+
+.b1{
+    background: white;
+    border-radius: 1000px;
+    border: none;
+    width: 60px;
+    height: 60px;
+    font-size: 170%;
+    color: rgb(255, 0, 0);
+}
+
+.b2{
+    background: red;
+    border-radius: 1000px;
+    border: none;
+    width: 60px;
+    height: 60px;
+    font-size: 170%;
+    color: rgb(255, 255, 255);
+    align-items: center;
+}
+
+.icon{
+    position: absolute;
+    margin-left: 20px;
+}
+
